@@ -55,6 +55,10 @@ ul{
   list-style: none;
 }
 
+p{
+  color: white;
+}
+
 #app{
   width: fit-content;
   margin: auto;
@@ -104,6 +108,16 @@ header{
   color: #E1E1E6;
   font-size: 1.4rem;
   text-transform: uppercase;
+}
+
+.card h3{
+  color: var(--card-color-primary);
+  font-size: 2.6rem;
+}
+
+.card h3 span{
+  font-size: 3rem;
+  color: white;
 }
 
 .card ul li{
